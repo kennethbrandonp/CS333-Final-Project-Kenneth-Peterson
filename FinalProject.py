@@ -19,7 +19,6 @@ if __name__ == "__main__":
             print("Player 2's turn (O)")
         col = int(input("Drop piece in columns 1-7: ")) - 1     #Grabs player entry
         
-        print("\n")     #Change for demo********
 
         winner = game.play(col)
         if winner != False:     #Handles winner
@@ -30,4 +29,3 @@ if __name__ == "__main__":
                 print("Player 2 (O) wins!")
             break       #Ends while statements
         
-    #unittest.main()
