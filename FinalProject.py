@@ -28,4 +28,5 @@ if __name__ == "__main__":
                 print("Player 2 (O) wins!")
             break       #Ends while statements
 
+        print()
     unittest.main()
