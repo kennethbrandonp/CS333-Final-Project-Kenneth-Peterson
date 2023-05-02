@@ -18,7 +18,9 @@ if __name__ == "__main__":
         else:
             print("Player 2's turn (O)")
         col = int(input("Drop piece in columns 1-7: ")) - 1     #Grabs player entry
-            
+        
+        print("\n")
+
         winner = game.play(col)
         if winner != False:     #Handles winner
             game.showBoard(game.gameBoard.board)
@@ -27,6 +29,5 @@ if __name__ == "__main__":
             else:
                 print("Player 2 (O) wins!")
             break       #Ends while statements
-
-        print("\n")
+        
     unittest.main()
